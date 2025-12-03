@@ -1,0 +1,18 @@
+.card{
+    border: 1px solid var(--color);
+    max-width: 23rem;
+    text-align: center;
+}
+
+.iconCont{
+    padding: 10px;
+    max-width: 75px;
+    background : var(--color);
+    margin: auto;
+    top: -30px;
+    font-size: 50px;
+    left: 38%;
+}
+.card-text{
+    color: rgba(0, 0, 0, 0.593);
+}

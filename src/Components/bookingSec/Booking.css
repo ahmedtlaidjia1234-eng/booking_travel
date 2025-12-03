@@ -1,0 +1,54 @@
+.bg{
+    background: rgba(0, 0, 0, 0.291);
+}
+
+.bg img{
+    z-index: -1;
+    filter: blur(1px);
+    object-fit: cover;
+    top: 0px;
+    left: 0px;
+}
+
+.bg label{
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 1.3px;
+}
+
+.bg input {
+    background-color: transparent;
+    color: white!important;
+}
+
+.bg textarea {
+    background-color: transparent;
+    color: white!important;
+}
+
+.bg input:focus{
+    background-color: transparent;
+    box-shadow: 0px 0px 10px 3px #aeff0065;
+}
+
+.bg input:focus label{
+
+}
+
+.bg textarea:focus {
+    background-color: transparent;
+    box-shadow: 0px 0px 10px 3px #aeff0065;
+}
+
+.bn{
+    font-weight: bold;
+    font-size: 20px;
+    color: white !important;
+    transition: 0.2s;
+}
+
+.bn:hover{
+    background-color: white;
+    color: black !important;
+    border: black 1px solid !important;
+}

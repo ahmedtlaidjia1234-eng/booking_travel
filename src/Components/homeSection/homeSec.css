@@ -1,0 +1,12 @@
+.downAnime{
+    animation: downAnime 0.5s forwards 1;
+    transform: translateY(-30px);
+    opacity: 0.7;
+}
+
+@keyframes downAnime {
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}

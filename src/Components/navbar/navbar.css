@@ -1,0 +1,178 @@
+.navlist {
+    color: white;
+  font-weight: 600;
+  text-decoration: none;
+  overflow: hidden;
+  position: relative;
+}
+a{
+    text-decoration: none;
+}
+a{
+  color: #fff;
+}
+
+.navlist:hover{
+    color : gray;
+}
+.navlist:visited{
+    color: white;
+}
+
+a:hover {
+    color: rgb(200, 197, 197);
+  }
+
+
+.anime{
+  animation: anime 0.7s ease-in-out infinite;
+  position: absolute;
+  left: 85%;
+  top: 5px;
+  color: #fff;
+  pointer-events: none;
+}
+
+
+/* @keyframes anime {
+  0%{
+    transform: translateY(0px);
+  }
+  50%{
+    transform: translateY(5px);
+  }
+  100%{
+    transform: translateY(0px);
+  }
+} */
+
+/*--------------------------------------*/
+
+li {
+  position: relative;
+}
+
+/*------------------------------------*/
+
+.active {
+  position: relative;
+  border-bottom: 3px solid #86b817;
+  color : white!important;
+}
+
+li:hover .hr {
+  border: 3px solid #86b817;
+  transform-origin: left;
+  transform: scaleX(1);
+}
+
+.hr {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  border: 3px solid transparent;
+  width: 105%;
+  transition: 0.5s ease;
+  transform: scaleX(0);
+  transform-origin: left;
+}
+
+/*-----------------------------------------*/
+/* nav{
+    background-color: transparent!important;
+}
+*/
+.dropdown-toggle::after {
+  display: none;
+}
+
+.dropdown-item:active {
+  background-color: #86b817;
+  color: white;
+}
+
+.jc{
+  align-items: center;
+  min-width: 100%;
+}
+/*-----------------------------------------*/
+
+/* .nav {
+  display: flex !important ;
+  min-height: 65px;
+}
+.navbar-toggle-i {
+  display: none !important;
+}
+
+
+.medianav {
+  background: transparent !important;
+  padding: 5px;
+  position: relative;
+}
+a{
+    color: #fff;
+} */
+
+nav{
+  background : transparent!important ;
+  position: absolute!important;
+}
+nav a{
+  color: #999!important;
+}
+
+
+
+.video{
+  position: absolute;
+}
+
+
+
+
+
+@media screen and (max-width: 1010px) {
+
+
+ 
+
+  .medianav {
+    background: #fff !important; 
+    color: #111; 
+    /* overflow: auto; */
+    z-index: 1;
+    /* max-height: 350px; */
+    /* scrollbar-width:thin; */
+  }
+nav{
+  background: #fff!important;
+  position: relative!important;
+  
+}
+
+  .navlist {
+    color: black!important;
+  font-weight: 600;
+  text-decoration: none;
+  overflow: hidden;
+  position: relative;
+}
+
+nav a{
+  color: #111!important;
+}
+  
+.jc{
+  align-items: unset;
+}
+
+
+/* .video{
+  position: relative;
+  top: 0;
+} */
+
+
+}

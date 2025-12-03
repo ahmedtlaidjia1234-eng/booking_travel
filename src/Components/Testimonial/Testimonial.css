@@ -1,0 +1,45 @@
+
+
+
+
+.slick-dots li button:hover{
+    background-color: #86b817;
+
+}
+
+.slick-dots{
+    gap: 10px;
+    display: flex!important;
+    justify-content: center;
+}
+
+.slick-dots li button:before{
+    content: '♣';
+    font-size: 15px;
+    background-color: #86b817;
+    scale: 1.7;
+    
+}
+
+.slick-slide{
+   margin: 0px 10px;
+}
+
+/* .slick-slide div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+} */
+
+.slick-track{
+    left: -895px;
+    position: relative;
+}
+.slick-list{
+    cursor: grab;
+}
+.slick-list:active{
+    cursor: grabbing;
+}
+

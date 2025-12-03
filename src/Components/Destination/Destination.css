@@ -1,0 +1,13 @@
+.destination{
+    display: flex;
+  grid-template-areas:
+    'pic1 pic1 pic1 pic1 pic2 pic2'
+    'pic1 pic1 pic1 pic1 pic2 pic2'
+    'pic3 pic3 pic3 pic4 pic2 pic2';
+  
+    gap: 10px;
+}
+
+.card img{
+    object-fit: cover!important;
+}
